@@ -1,0 +1,34 @@
+Anda diminta untuk merancang sebuah sistem sederhana untuk reservasi hotel. Sistem ini terdiri dari beberapa class, yaitu Room, Hotel, dan Reservation. Berikut adalah spesifikasi untuk masing-masing class:
+
+Class Room
+Variabel:
+int roomNumber
+String roomType
+boolean occupied
+double rate
+Constructor:
+Constructor default yang menginisialisasi roomNumber dengan 0, roomType dengan "Standard", occupied dengan false, dan rate dengan 100.0.
+Constructor yang menerima roomNumber dan roomType, dan menginisialisasi occupied dengan false serta rate berdasarkan roomType. (Misal: "Standard" = 100.0, "Deluxe" = 200.0)
+Constructor yang menerima semua parameter untuk variabelnya.
+Class Hotel
+Variabel:
+String name
+Room[] rooms
+Constructor:
+Constructor yang menerima name dan int numberOfRooms. Inisialisasi array rooms dengan jumlah numberOfRooms. Gunakan sebuah loop untuk mengisi array rooms dengan objek Room, dimana roomNumber dimulai dari 1 hingga numberOfRooms dan semua kamar bertipe "Standard".
+Constructor yang menerima name, int numberOfStandardRooms, dan int numberOfDeluxeRooms. Inisialisasi array rooms dengan jumlah total kamar. Gunakan sebuah loop untuk mengisi rooms dengan objek Room, dimana setengah pertama adalah "Standard" dan setengah kedua adalah "Deluxe".
+Class Reservation
+Variabel:
+Room reservedRoom
+String guestName
+int numberOfNights
+double totalCharge
+Constructor:
+Constructor yang menerima Room reservedRoom, String guestName, dan int numberOfNights. totalCharge dihitung berdasarkan rate dari reservedRoom dikalikan dengan numberOfNights.
+Tugas:
+Implementasikan semua class dan constructor sesuai dengan spesifikasi di atas. Pastikan Anda menerapkan prinsip encapsulation dengan membuat variabel instance private dan menyediakan getter (dan setter jika diperlukan).
+Untuk setiap constructor, tambahkan kode untuk mencetak pesan yang menunjukkan constructor mana yang sedang dipanggil dan parameter apa saja yang diberikan. Contoh: "Constructor Room with roomNumber and roomType is called".
+Buat class HotelReservationSystem dengan method main untuk demonstrasi:
+Buat sebuah objek Hotel dengan kedua constructor yang tersedia.
+Buat sebuah objek Reservation untuk beberapa kamar.
+Cetak informasi mengenai reservasi yang telah dibuat.

@@ -1,0 +1,25 @@
+Soal(1)
+Diberikan sebuah array bilangan bulat dan sebuah nilai target. Tugas Anda adalah menemukan semua pasangan unik dalam array tersebut yang jumlahnya sama dengan nilai target. Anda harus mengembalikan hasil dalam bentuk list pasangan angka, di mana setiap pasangan adalah array dengan dua elemen. Pasangan tersebut harus diurutkan terlebih dahulu, dan setiap pasangan dalam hasil akhir harus unik (tidak boleh ada pasangan yang duplikat).
+
+Contoh:
+
+Input: nums = [2, 4, 3, 5, 6, -2, 4, 7, 8, 9], target = 7
+
+Output: [[2, 5], [3, 4], [-2, 9]]
+
+
+Soal(2)
+Diberikan sebuah array arr yang berisi n elemen dan sebuah bilangan bulat k. Rotasikan array ke kanan sebanyak k kali. Setelah setiap rotasi, elemen terakhir dari array dipindahkan ke posisi awal, dan semua elemen lainnya bergeser satu posisi ke kanan. Tulis sebuah program Java untuk melakukan rotasi tersebut. Anda harus mencari solusi yang efisien untuk menangani kasus dengan n dan k yang besar.
+
+Contoh Input dan Output
+Input: arr = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Penjelasan: Setelah rotasi 1 kali: [7,1,2,3,4,5,6]
+
+Setelah rotasi 2 kali: [6,7,1,2,3,4,5]
+
+Setelah rotasi 3 kali: [5,6,7,1,2,3,4]
+
+
+Note:
+*Program wajib terdapat komen pada setiap baris program yang menjelaskan maksud dari baris kode tersebut!*
